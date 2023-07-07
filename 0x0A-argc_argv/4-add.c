@@ -42,5 +42,5 @@ int main(int argc, char *argv[])
 			printf("0\n");
 		}
 
-		reurn (0);
+		return (0);
 }

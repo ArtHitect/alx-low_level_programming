@@ -10,7 +10,7 @@
  * Return: Always 0 (Success)
  */
 
-int main( argc, char *argv[])
+int main(argc, char *argv[])
 {
 	int n1 = 0, n2 = 0;
 
