@@ -5,7 +5,7 @@
 
 /**
  * main - Prints the sum of argc positive numbers
- * @argv: argument count
+ * @argc: argument count
  * @argv: argument vector
  *
  * Return: Always zero
