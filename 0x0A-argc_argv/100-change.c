@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		prinytf("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 
 	cents = atoi(argv[1]);
 
-	while (cent > 0)
+	while (cents > 0)
 	{
 		coins++;
 		if ((cents - 25) >= 0)
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 			cents -= 5;
 			continue;
 		}
-		if ((cents - 2) >= 0);
+		if ((cents - 2) >= 0)
 		{
 			cents -= 2;
 			continue;
